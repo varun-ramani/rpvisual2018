@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden">
+    <head>
+	<title>Eugenics</title>
+	<link rel="stylesheet" href="./materialize/css/materialize.min.css" />
+    </head>
+
+    <audio src="music.mp3"></audio>
+
+    <body style="height: 100%" data-0="background-color: rgb(255, 255, 255)" data-400="background-color: rgb(0, 0, 0)">
+	<div class="row center" style="position: fixed; height: 95vh" data-0="position: fixed" data-400="position: absolute">
+	    <h1 class="col s12" data-0="color: rgba(255, 0, 0, 1); transform: scaleY(1)" data-300="color: rgba(0, 0, 0, 0); transform: scaleY(0)">Progressive Era Eugenics</h1>
+	    <h2 class="col s12" data-0="color: rgba(0, 0, 0, 1); transform: scaleX(1)" data-300="color: rgba(0, 0, 0, 0); transform: scaleX(0)">An Interactive Experience By Varun Ramani</h2>
+	    <h4 class="col s12" data-0="margin-left: 0vw;" data-300="margin-left: 100vw">Start scrolling...</h4>
+	</div>
+
+	<div class="row center valign-wrapper" style="height: 95vh; width: 100%" data-600="opacity: 0" data-800="color: white; opacity: 1; position: fixed" data-1050="position: fixed; opacity: 0.2" data-1100="opacity: 0; position: absolute">
+	    <p class="col s12" style="font-size: 10vh; font-family: Serif">You Are A Black Man in 1905</p>
+	</div>
+
+	<div class="row center valign-wrapper" style="height: 95vh; width: 100%" data-600="color: white; opacity: 1; position: fixed" data-799="position: fixed; opacity: 0" data-800="opacity: 0; position: absolute">
+	    <p class="col s12" style="font-size: 20vh; font-family: Serif"></p>
+	</div>
+
+    </body>
+
+    <script src="./skrollr.min.js"></script>
+    <script>
+     var s = skrollr.init();
+    </script>
+    <script src="./materialize/js/materialize.min.js"></script>
+</html>
